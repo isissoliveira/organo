@@ -1,0 +1,64 @@
+.funcionario{
+    width: 180px;
+    border-radius: 8%;
+    border-top: solid 64px;
+    font-size: 24px;
+    display:inline-block;
+    margin: 0px 16px 10px;
+    padding: 16px 0;
+    background-color: whitesmoke;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.1);
+    vertical-align:top;
+    position: relative;
+}
+.funcionario .deletar{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -78px;
+    right: -10px;
+    /* background-image: url('../../../public/imagens/trash.png');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; */
+}
+.funcionario .avatar{
+    height: 100px;
+    width: 100px;
+    margin-top: -64px;
+    background-color: rgb(228, 226, 226);
+    border-radius: 50%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    display:inline-block;
+}
+.funcionario .avatar img{
+    margin-top: 0px;
+}
+.avatar.male{
+    background-image: url("https://www.w3schools.com/w3images/avatar2.png");
+}
+.avatar.female{
+    background-image: url("https://www.w3schools.com/howto/img_avatar2.png");
+}
+.avatar.undefined{
+    background-image: url("https://www.svgrepo.com/show/382368/avatar-emoji-emoticon-emotion-expression-profile.svg");
+}
+
+.funcionario .nome{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 24px;
+}
+.funcionario .cargo{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.funcionario .star{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 30px;
+    height: 20px;
+}
